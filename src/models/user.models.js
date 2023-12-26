@@ -55,7 +55,7 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
-userSchema.methods.matchPassword = async(password) {
+userSchema.methods.matchPassword = async function(password) {
     return await bcrpyt.compare(password, this.password);
 }
 
