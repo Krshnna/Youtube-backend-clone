@@ -8,12 +8,24 @@ const videoSchema = new mongoose.Schema({
         required: true,
     },
     videoFile: {
-        type: String,
-        required:true,
+        public_id: {
+            type: String, 
+            required: true,
+        },
+        url: {
+            type: String,
+            required: true,
+        }
     },
     thumbnail: {
-        type: String,
-        required: true,
+        public_id: {
+            type: String,
+            required: true,
+        },
+        url: {
+            type: String,
+            required: true,
+        }
     },
     description: {
         type: String, 
