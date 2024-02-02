@@ -24,6 +24,9 @@ app.use(cookieParser());
 
 //routes
 import userRoutes from "./routes/user.routers.js";
+import videoRoutes from "./routes/video.routers.js";
+
 app.use("/api/v1/users", userRoutes);
+app.use("/api/v1/videos", videoRoutes);
 
 export default app;
