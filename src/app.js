@@ -26,9 +26,11 @@ app.use(cookieParser());
 import userRoutes from "./routes/user.routers.js";
 import videoRoutes from "./routes/video.routers.js";
 import commentRoutes from "./routes/comments.routers.js";
+import playlistRoutes from "./routes/playlist.routers.js";
 
 app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/videos", videoRoutes);
 app.use("/api/v1/comments", commentRoutes);
+app.use("/api/v1/playlists", playlistRoutes);
 
 export default app;
