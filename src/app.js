@@ -29,6 +29,7 @@ import commentRoutes from "./routes/comments.routers.js";
 import playlistRoutes from "./routes/playlist.routers.js";
 import subscriptionRoutes from "./routes/subscription.routers.js";
 import tweetRoutes from "./routes/tweet.routers.js";
+import likeRoutes from "./routes/like.routers.js";
 
 app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/videos", videoRoutes);
@@ -36,5 +37,6 @@ app.use("/api/v1/comments", commentRoutes);
 app.use("/api/v1/playlists", playlistRoutes);
 app.use("/api/v1/subscriptions", subscriptionRoutes);
 app.use("/api/v1/tweets", tweetRoutes);
+app.use("/api/v1/likes", likeRoutes);
 
 export default app;
