@@ -22,6 +22,14 @@ Welcome to the YouTube Backend project! This backend system provides a comprehen
 - **JWT**: JSON Web Tokens for authentication.
 - **Bcrypt**: Password hashing for user security.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="expressjs" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" alt="JsonWebToken" />
+  <img src="https://img.shields.io/badge/Cloudinary-339933?style=for-the-badge&logo=Cloudinary&logoColor=white" alt="Cloudinary"/>
+</p>
+
 ## Setup
 
 1. **Clone the repository**: `git clone https://github.com/Krshnna/Youtube-backend-clone.git`
@@ -86,5 +94,16 @@ The backend provides a RESTful API for interacting with various resources. Below
 The backend follows standard HTTP status codes for indicating the success or failure of requests. Error responses include appropriate status codes, along with error messages in JSON format.
 
 If anyone want to collab on this project for making Frontend. Feel free to reach me out at [my mail](krishnnna.kapoor@gmail.com]).
+
+## Contact
+
+If you want to contact me, you can reach me through below handles.
+
+[![linkedin](https://img.shields.io/badge/Krishna_Kapoor-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishnna14/)
+[![GitHub](https://img.shields.io/badge/Krishna_Kapoor-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/Krshnna/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 Thank you. Keep Upskilling.
